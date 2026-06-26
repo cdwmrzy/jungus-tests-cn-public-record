@@ -1,7 +1,8 @@
 cff-version: 1.2.0
 message: "If you cite this public record, please cite it as below."
 title: "Jungus Tests CN: Public Priority and Citation Record"
-version: "v1.0-public-record-zenodo"
+version: "v1.01-public-record"
+DOI: https://doi.org/10.5281/zenodo.20935505
 date-released: "2026-06-26"
 authors:
   - family-names: "Cui"
