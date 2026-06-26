@@ -1,16 +1,16 @@
 cff-version: 1.2.0
 message: "If you cite this public record, please cite it as below."
 title: "Jungus Tests CN: Public Priority and Citation Record"
-version: "v1.0"
+version: "v1.0-public-record-zenodo"
 date-released: "2026-06-26"
-type: dataset
 authors:
-  - name: "Jungus Team"
+  - family-names: "Cui"
+    given-names: "Zhihan"
+    orcid: "https://orcid.org/0000-0003-0883-2322"
     affiliation: "Jungus"
 abstract: "A public priority and citation record for the Chinese versions of the Jungus Professional Test and Jungus Standard Test, documenting assessment names, theoretical structure, Chinese item text, and checksums of selected private source files without disclosing item-to-dimension mappings, scoring weights, backend algorithm, or report-generation logic."
 url: "https://www.jungus.cn"
 repository-code: "https://github.com/"
-license: "LicenseRef-AllRightsReserved"
 keywords:
   - Jungus
   - personality assessment
