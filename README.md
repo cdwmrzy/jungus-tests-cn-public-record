@@ -1,5 +1,7 @@
 # Jungus Tests CN Public Record
 
+DOI: https://doi.org/10.5281/zenodo.20935505
+
 This repository is a public priority and citation record for the Chinese versions of the Jungus Professional Test and Jungus Standard Test.
 
 The Jungus Professional Test is a second-generation cognitive function assessment developed by the Jungus team. It extends the classical 16-type and eight-function framework with two additional preference dimensions:
