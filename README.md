@@ -1,57 +1,47 @@
-# Jungus Tests CN Public Record
+# Jungus Theory CN v1.0 Public Copyright Record
 
-DOI: https://doi.org/10.5281/zenodo.20935505
+This deposit package is a public priority and copyright record for the Chinese Jungus theory section.
 
-This repository is a public priority and citation record for the Chinese versions of the Jungus Professional Test and Jungus Standard Test.
+中文说明：本包用于记录荣格斯理论版在 2026-06-27 的公开内容形态，包含理论文章、64 型人格类型描述、类型图鉴页面、功能理论页面、互动模式页面、外显气质页面、前端展示源码与理论版原创图片资源。
 
-The Jungus Professional Test is a second-generation cognitive function assessment developed by the Jungus team. It extends the classical 16-type and eight-function framework with two additional preference dimensions:
+## Scope
 
-- Object-Background preference for perceiving functions.
-- Analysis-Holism preference for judging functions.
+This package covers:
 
-Together, these dimensions define 16 Jungus cognitive functions and 64 personality archetypes.
+- 荣格斯 16 功能总览与四组功能理论：感觉、直觉、思考、情感。
+- 荣格斯 64 型图鉴、64 个类型页面与对应类型描述数据。
+- 八种外显气质与八种互动模式理论文章。
+- 理论版页面、样式、脚本和公开展示所需图片资源。
+- 理论版原创图像、类型画像、图标与页面素材。
 
-## Public Record
+This package does not include:
 
-This repository may publish the Chinese test-item text for public priority evidence. It does not publish item-to-dimension mappings, scoring weights, reverse-keying rules, backend algorithm, prompt templates, or report-generation logic. Those materials are protected as copyrighted works, software, and confidential know-how of the Jungus team.
+- 专业版或标准版测评的评分权重、后端算法、结果生成逻辑。
+- 用户作答数据、用户结果数据、服务器配置或数据库。
+- 未公开的内部研究记录。
 
-For public priority evidence, this repository records:
+## Folder Structure
 
-- Test name and version.
-- Public theoretical summary.
-- Structural description of the assessment.
-- Professional-version Chinese item text.
-- Standard-version Chinese item text.
-- SHA-256 checksums of key internal files as preserved by the authors.
+- `theory_site_snapshot/`：当前理论版网页完整快照，包含 HTML、CSS、JS、图片与类型数据。
+- `text_exports/所有类型描述.md`：由 `types-data.js` 导出的 64 型类型描述可读副本。
+- `text_exports/理论讨论正文导出.md`：由理论文章 HTML 自动导出的正文可读副本。
+- `text_exports/理论模型数据索引.md`：8 种外显气质与 8 种互动模式的数据索引。
+- `Jungus_Theory_CN_v1.0_16_Functions_v0.81_20260629.pdf`：同步荣格斯2026-v0.81量表更新的 16 功能理论 PDF。
+- `COPYRIGHT_CLAIM.md`：版权与权利主张声明。
+- `LICENSE.md`：保留权利与允许使用范围。
+- `CITATION.cff`：引用信息。
+- `checksums.sha256`：文件校验值。
+- `manifest.txt`：文件清单。
 
-The checksums are included to prove that the corresponding private materials existed in a fixed form at the time of this public record, without disclosing the materials themselves.
+## Author / Claimant
+
+Zhihan Cui  
+ORCID: https://orcid.org/0000-0003-0883-2322  
+Official website: https://www.jungus.cn/
 
 ## Version
 
-- Name: Jungus Professional Test CN
-- Version: v1.0 public record
-- Language: Simplified Chinese
-- Public record date: 2026-06-26
-- Website: https://www.jungus.cn
-
-## Repository Contents
-
-- `README.md`: overview of this public record.
-- `CITATION.cff`: citation metadata.
-- `LICENSE.md`: copyright and use restrictions.
-- `Jungus_Tests_CN_v1.0_public_record.md`: public record document for both Professional and Standard.
-- `Jungus_Tests_CN_v1.0_public_record.pdf`: PDF version of the public record document.
-- `Jungus_Professional_Test_CN_v1.0_public_record.md` / `Jungus_Professional_Test_CN_v1.0_public_record.pdf`: earlier professional-version public record, retained for traceability.
-- `Jungus_Professional_Test_CN_v1.0_items.md` / `Jungus_Professional_Test_CN_v1.0_items.pdf`: Chinese item text public record without scoring mappings or algorithmic details.
-- `Jungus_Standard_Test_CN_v1.0_items.md` / `Jungus_Standard_Test_CN_v1.0_items.pdf`: Standard-version Chinese item text public record without scoring mappings or algorithmic details.
-- `checksums.sha256`: SHA-256 checksums of selected private/source files.
-
-## Citation
-
-Please cite this record as:
-
-Jungus Team. (2026). *Jungus Tests CN: Public Priority and Citation Record* (v1.0). Jungus. https://www.jungus.cn
-
-## Contact
-
-For commercial licensing, academic collaboration, or permission requests, contact the Jungus team through the official website.
+Version: v1.0 public copyright record  
+Record date: 2026-06-27  
+PDF update: 2026-06-29, synchronized with Jungus2026-v0.81 scale update  
+Primary language: Chinese
